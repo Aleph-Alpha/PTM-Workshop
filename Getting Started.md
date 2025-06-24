@@ -35,5 +35,6 @@ These are some useful variables that will be needed for developing solutions wit
 | OCI Registry | `registry.gitlab.aleph-alpha.de` |
 | Skill Repository | `innovation/pharia-kernel-playground/skills` |
 | Image Repository | `innovation/pharia-application-registry` |
+| Pharia Kernel Playground | `customer-playground` |
 | OCI Registry Token | Shared via email |
 | PhariaAI Token | Obtain from [PhariaStudio](https://pharia-studio.partner.stage.product.pharia.com/) |
