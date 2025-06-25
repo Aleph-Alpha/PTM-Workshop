@@ -38,3 +38,15 @@ These are some useful variables that will be needed for developing solutions wit
 | Pharia Kernel Playground | `customer-playground` |
 | OCI Registry Token | Shared via email |
 | PhariaAI Token | Obtain from [PhariaStudio](https://pharia-studio.partner.stage.product.pharia.com/) |
+
+### Useful commands
+- Setting env vars on windows with PowerShell from `.env` file
+```
+Get-Content ".env" | ForEach-Object {
+    if ($_ -match '^\s*([^#][^=]+?)\s*=\s*(.*)\s*$') {
+        $key = $matches[1].Trim()
+        $value = $matches[2].Trim('"')  # Optional: remove quotes
+        [System.Environment]::SetEnvironmentVariable($key, $value, "Process")
+    }
+}
+```
