@@ -131,7 +131,7 @@ In addition to schema extraction, the `db_service.py` script can also be used in
 #### 3.1 Upload Few-Shot Examples to the Document Index (DI)
 
 * Create a **Collection** and **Index** in DI.
-* Upload [Few-shot examples](data/di/examples.json) using the Intelligence Layer.
+* Upload [Few-shot examples](data/DI/examples.json) using the Intelligence Layer.
 
   * Use `question` as the **document content**.
   * Use `query` as the **document metadata**.
